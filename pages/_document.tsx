@@ -7,6 +7,7 @@ import Document, {
 	NextScript,
 } from "next/document";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 class MyDocument extends Document {
 	static async getInitialProps(
@@ -18,7 +19,7 @@ class MyDocument extends Document {
 	}
 	render() {
 		return (
-			<Html>
+			<Html lang="es">
 				<Head>
 					<link
 						rel="stylesheet"
@@ -28,11 +29,12 @@ class MyDocument extends Document {
 						referrerPolicy="no-referrer"
 					/>
 				</Head>
-				<Header />
+
 				<body className="font-main">
 					<Main />
 					<NextScript />
 				</body>
+				<Footer />
 			</Html>
 		);
 	}

@@ -19,6 +19,9 @@ module.exports = {
 			minHeight: {
 				banner: "50vh",
 			},
+			maxHeight: {
+				banner: "50vh",
+			},
 		},
 	},
 	plugins: [],

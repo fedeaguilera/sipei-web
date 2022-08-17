@@ -4,15 +4,15 @@ interface ServicesProps {}
 
 const Services: React.FunctionComponent<ServicesProps> = () => {
 	return (
-		<section className="max-w-screen-lg mx-auto mt-10">
-			<div>
-				<h1 className="text-3xl font-title border-l-4 border-l-primary pl-2">
+		<section className="max-w-screen-lg mx-auto mt-20">
+			<div className="mt-5">
+				<h2 className="text-3xl font-title border-l-4 pl-2 border-l-primary">
 					SERVICIOS
-				</h1>
+				</h2>
 			</div>
-			<div className="flex  ">
+			<div className="flex flex-col md:flex-row justify-center items-center  ">
 				{/* CARDS */}
-				<div className="w-1/3   mt-9 m-2">
+				<div className="w-11/12 md:w-1/3  mt-9 m-2">
 					<div className="relative">
 						<Image
 							src={"/images/industria.jpg"}
@@ -35,10 +35,10 @@ const Services: React.FunctionComponent<ServicesProps> = () => {
 					</div>
 				</div>
 
-				<div className="w-1/3   mt-9 m-2">
+				<div className="w-11/12 md:w-1/3   mt-9 m-2">
 					<div className="relative">
 						<Image
-							src={"/images/industria.jpg"}
+							src={"/images/industria2.jpg"}
 							layout="responsive"
 							width={1996}
 							height={1331}
@@ -57,10 +57,10 @@ const Services: React.FunctionComponent<ServicesProps> = () => {
 						</p>
 					</div>
 				</div>
-				<div className="w-1/3   mt-9 m-2">
+				<div className="w-11/12 md:w-1/3  mt-9 m-2">
 					<div className="relative">
 						<Image
-							src={"/images/industria.jpg"}
+							src={"/images/industria3.jpg"}
 							layout="responsive"
 							width={1996}
 							height={1331}
@@ -69,9 +69,9 @@ const Services: React.FunctionComponent<ServicesProps> = () => {
 					</div>
 					<div className="p-2 bg-bg_secondary">
 						<h3 className=" font-title text-xl text-center">
-							Mantenimiento Industrial
+							Montajes Industriales
 						</h3>
-						<p className="mt-4 text-center">
+						<p className="mt-4 text-justify">
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
 							dolor nostrum ex officia corporis id nam dolores fuga beatae quod,
 							voluptates, atque quisquam molestiae magni tenetur esse eum minus
