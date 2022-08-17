@@ -30,13 +30,13 @@ const HeaderResponsive: React.FunctionComponent<HeaderResponsiveProps> = ({
 					onClick={() => setOpen(false)}
 				>
 					<Link href="https://www.google.com.ar">
-						<Whatsapp className="hover:text-primary hover:scale-125 duration-500 ease-in-out p-0" />
+						<Whatsapp className="hover:text-primary hover:scale-125 duration-500 ease-in-out " />
 					</Link>
 					<Link href="https://www.google.com.ar">
-						<Instagram className="hover:text-primary hover:scale-125 duration-500 ease-in-out p-0" />
+						<Instagram className="hover:text-primary hover:scale-125 duration-500 ease-in-out" />
 					</Link>
 					<Link href="https://www.google.com.ar">
-						<Mailgun className="hover:text-primary hover:scale-125 duration-500 ease-in-out p-0" />
+						<Mailgun className="hover:text-primary hover:scale-125 duration-500 ease-in-out" />
 					</Link>
 				</div>
 				<div
